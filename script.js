@@ -1,0 +1,14 @@
+document.getElementById('contactForm').addEventListener('submit', function( addEventListener){
+const name =document.getElementById('name').value.trim();
+const reason =document.getElementById('reason').value.trim();
+const email =document.getElementById('email').value.trim();
+
+if(!name||!reason || enaill){
+alert('Por favor  complete todos los campos.');
+event.preventDefault();
+} else{
+    alert.preventDefault();
+} else{
+    alert('Formulario enviado correctamente.');
+}
+});
